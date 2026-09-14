@@ -1,0 +1,5 @@
+streamlit>=1.38
+google-api-python-client>=2.140
+google-auth>=2.34
+pandas>=2.2
+plotly>=5.24
