@@ -26,12 +26,12 @@ streamlit run app.py
 
 In the sidebar, expand **Connection**, choose "Upload service account JSON", and upload the key file from step 1. The dashboard will list every property that account can see.
 
-For a project-local JSON file, replace the contents of `service-account.json` in this folder with the downloaded Google service-account key. Then choose **Use local JSON file**; it defaults to that filename, so no laptop-specific path is needed.
+For a project-local JSON file, replace the contents of `fr-service-account.json` in this folder with the downloaded Google service-account key. Then choose **Use local JSON file**; it defaults to that filename, so no laptop-specific path is needed.
 
 You can also set a different default path before starting Streamlit:
 
 ```bash
-export GSC_SERVICE_ACCOUNT_FILE="/path/to/service-account.json"
+export GSC_SERVICE_ACCOUNT_FILE="/path/to/fr-service-account.json"
 streamlit run app.py
 ```
 

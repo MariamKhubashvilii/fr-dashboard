@@ -36,7 +36,7 @@ with st.sidebar.expander("🔑 Connection", expanded="service" not in st.session
     elif creds_source == "Use local JSON file":
         credentials_path = st.text_input(
             "Service account JSON path",
-            value=os.environ.get("GSC_SERVICE_ACCOUNT_FILE", "service-account.json"),
+            value=os.environ.get("GSC_SERVICE_ACCOUNT_FILE", "fr-service-account.json"),
         )
         try:
             with open(credentials_path, encoding="utf-8") as credentials_file:
